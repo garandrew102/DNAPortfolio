@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import Button from "../components/Button";
+import "./Navbar.css";
 
 function Navbar() {
   const [click, setClick] = useState(true);
@@ -28,7 +29,7 @@ function Navbar() {
         <div className="menu-icon" onClick={handleClick}>
           <i className={click ? "fas fa-bars" : "fas fa-times"} />
         </div>
-        <ul className={click ? "nav-menu active" : "nav-menu"}>
+        <ul className={click ? "nav-menu" : "nav-menu active"}>
           <li className="nav-item">
             <Link to="/" className="nav-links" onClick={closeMobileMenu}>
               Home
