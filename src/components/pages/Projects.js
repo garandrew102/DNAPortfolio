@@ -7,7 +7,6 @@ import {
   CardActions,
   Button,
   CardMenu,
-  // IconButton,
 } from "react-mdl";
 import MemePark from "../../images/MemePark.png";
 
