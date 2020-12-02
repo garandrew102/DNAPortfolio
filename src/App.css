@@ -9,6 +9,7 @@
 .projects,
 .services,
 .products,
+.contact-us,
 .sign-up {
   display: flex;
   height: 90vh;
@@ -37,12 +38,12 @@
 
 .projects {
   background-image: url("../src/images/img-1.jpg");
-  display: flex;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
   background-position: center;
   background-size: fill;
   background-repeat: no-repeat;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
   color: #fff;
   font-size: 100px;
 }
