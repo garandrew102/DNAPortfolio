@@ -1,0 +1,62 @@
+.contact {
+  /* background-image: url("../../../images/img-1.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 92vh; */
+  display: flex;
+  justify-content: center;
+}
+
+.contact > video {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  object-fit: cover;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+}
+
+.form {
+  margin-top: 4%;
+  width: 451px;
+}
+
+.name,
+.email,
+.message {
+  padding-bottom: 25px;
+}
+
+label {
+  font-size: 20px;
+}
+
+#full-name,
+#email,
+#message {
+  width: 450px;
+  opacity: 80%;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  opacity: 80%;
+}
+
+.success-msg,
+.error-msg {
+  display: flex;
+  justify-content: center;
+}
+
+.success-msg {
+  color: green;
+}
+
+.error-msg {
+  color: red;
+}

@@ -1,5 +1,5 @@
 import React from "react";
-import "../../../App.css";
+import "./LandingPage.css";
 import Home from "../../Home/Home";
 import Footer from "../../Footer/Footer";
 
