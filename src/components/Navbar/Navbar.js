@@ -21,7 +21,7 @@ function Navbar() {
             </div>
             <div className="nav-item">
               <a
-                href="https://github.com/garandrew102"
+                href="/"
                 className="nav-links"
                 rel="noopener noreferrer"
                 target="_blank"
@@ -32,7 +32,7 @@ function Navbar() {
             </div>
             <div className="nav-item">
               <a
-                href="https://www.linkedin.com/in/garandrew102/"
+                href="/"
                 className="nav-links"
                 rel="noopener noreferrer"
                 target="_blank"
@@ -51,15 +51,7 @@ function Navbar() {
                 Home
               </Link>
             </li>
-            <li className="nav-item">
-              <Link
-                to="/resume"
-                className="nav-links"
-                onClick={closeMobileMenu}
-              >
-                Resume
-              </Link>
-            </li>
+
             <li className="nav-item">
               <Link
                 to="/projects"
@@ -70,11 +62,7 @@ function Navbar() {
               </Link>
             </li>
             <li className="nav-item">
-              <Link
-                to="/about-me"
-                className="nav-links"
-                onClick={closeMobileMenu}
-              >
+              <Link to="/about" className="nav-links" onClick={closeMobileMenu}>
                 About
               </Link>
             </li>

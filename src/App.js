@@ -1,11 +1,12 @@
 import React from "react";
 import "./App.css";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Navbar from "./components/Navbar/Navbar";
 import LandingPage from "./components/pages/LandingPage/LandingPage";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import Services from "./components/pages/OurServices/OurServices";
 import Projects from "./components/pages/Projects/Projects";
-import ContactUs from "./components/pages/ContactUs/ContactUs";
+import OurServices from "./components/pages/OurServices/OurServices";
+import Contact from "./components/pages/Contact/Contact";
+import About from "./components/pages/About/About";
 
 function App() {
   return (
@@ -15,8 +16,9 @@ function App() {
         <Switch>
           <Route path="/" exact component={LandingPage} />
           <Route path="/projects" exact component={Projects} />
-          <Route path="/services" exact component={Services} />
-          <Route path="/contact-us" exact component={ContactUs} />
+          <Route path="/our-services" exact component={OurServices} />
+          <Route path="/contact" exact component={Contact} />
+          <Route path="/about" exact component={About} />
         </Switch>
       </Router>
     </>
