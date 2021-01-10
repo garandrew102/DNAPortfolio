@@ -65,7 +65,6 @@ function Footer() {
           <div class="footer-logo">
             <Link to="/" className="social-logo">
               DNA
-              <i class="fab fa-typo3" />
             </Link>
           </div>
           <small class="website-rights">DNA © 2020</small>

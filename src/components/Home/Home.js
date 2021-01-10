@@ -19,7 +19,7 @@ function Home() {
           buttonStyle="btn--outline"
           buttonSize="btn--large"
         >
-          CONTACT US
+          CONTACT
         </Button>
       </div>
     </div>
