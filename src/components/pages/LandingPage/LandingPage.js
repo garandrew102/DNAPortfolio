@@ -1,7 +1,7 @@
 import React from "react";
-import "../../App.css";
-import Home from "../Home";
-import Footer from "../Footer";
+import "../../../App.css";
+import Home from "../../Home/Home";
+import Footer from "../../Footer/Footer";
 
 function LandingPage() {
   return (

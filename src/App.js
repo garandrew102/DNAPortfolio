@@ -1,11 +1,11 @@
 import React from "react";
 import "./App.css";
-import Navbar from "./components/Navbar";
-import LandingPage from "./components/pages/LandingPage";
+import Navbar from "./components/Navbar/Navbar";
+import LandingPage from "./components/pages/LandingPage/LandingPage";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import Services from "./components/pages/Services";
-import Projects from "./components/pages/Projects";
-import ContactUs from "./components/pages/ContactUs";
+import Services from "./components/pages/OurServices/OurServices";
+import Projects from "./components/pages/Projects/Projects";
+import ContactUs from "./components/pages/ContactUs/ContactUs";
 
 function App() {
   return (

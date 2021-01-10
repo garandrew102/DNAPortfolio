@@ -1,8 +1,8 @@
 import React from "react";
-import { Button } from "./Button";
-import "../App.css";
+import { Button } from "../Button/Button";
+import "../../App.css";
 import "./Home.css";
-import video1 from "../videos/video1.mp4";
+import video1 from "../../videos/video1.mp4";
 
 function Home() {
   return (
