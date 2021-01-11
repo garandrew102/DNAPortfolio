@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import { Form, Button } from "react-bootstrap";
 import video1 from "../../../videos/video1.mp4";
 import Axios from "axios";
-import "../../Button/Button.css";
 import "./Contact.css";
 
 class Contact extends Component {
