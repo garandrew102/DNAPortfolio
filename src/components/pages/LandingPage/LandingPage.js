@@ -23,7 +23,6 @@ function LandingPage() {
           </Button>
         </div>
       </div>
-      {/* <Footer /> */}
     </>
   );
 }
