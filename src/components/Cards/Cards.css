@@ -10,7 +10,8 @@
 
 .project-one,
 .project-two,
-.project-three {
+.project-three,
+.project-four {
   margin-top: 4%;
 }
 
@@ -23,7 +24,7 @@
 }
 
 .campo {
-  background-image: url(../../images/MemePark.png);
+  background-image: url(../../images/Heart2Heart.png);
   color: white;
   height: 172px;
   background-size: cover;
@@ -31,9 +32,17 @@
 }
 
 .heart2heart {
-  background-image: url(../../images/MemePark.png);
+  background-image: url(../../images/Campo.png);
   color: white;
   height: 172px;
+  background-size: cover;
+  background-position: center;
+}
+
+.got-tech {
+  background-image: url(../../images/Got-Tech.png);
+  color: white;
+  height: 180px;
   background-size: cover;
   background-position: center;
 }

@@ -14,6 +14,47 @@ function Cards() {
     <div className="cards">
       <div className="project-one">
         <Card shadow={5}>
+          <CardTitle className="got-tech">{/* Campo */}</CardTitle>
+          <CardText className="card-text">
+            <i>
+              A React web application allowing users to search for the lastest
+              tech jobs and resources no matter what level
+            </i>
+          </CardText>
+          <CardActions>
+            <div className="card-buttons">
+              <div className="visit">
+                <Button
+                  raised
+                  ripple
+                  href="/"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  Visit
+                </Button>
+              </div>
+              <div className="source-code-btn">
+                <Button
+                  raised
+                  ripple
+                  href="/"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  Source Code
+                </Button>
+                <hr />
+                <h5>Got Tech</h5>
+              </div>
+            </div>
+          </CardActions>
+          <CardMenu className="card-menu"></CardMenu>
+        </Card>
+      </div>
+
+      <div className="project-two">
+        <Card shadow={5}>
           <CardTitle className="meme-park">{/* Meme Park */}</CardTitle>
           <CardText className="card-text">
             <i>
@@ -52,7 +93,7 @@ function Cards() {
           <CardMenu className="card-menu"></CardMenu>
         </Card>
       </div>
-      <div className="project-two">
+      <div className="project-three">
         <Card shadow={5}>
           <CardTitle className="heart2heart">{/* Heart2Heart */}</CardTitle>
           <CardText className="card-text">
@@ -93,7 +134,7 @@ function Cards() {
           <CardMenu className="card-menu"></CardMenu>
         </Card>
       </div>
-      <div className="project-three">
+      <div className="project-four">
         <Card shadow={5}>
           <CardTitle className="campo">{/* Campo */}</CardTitle>
           <CardText className="card-text">
