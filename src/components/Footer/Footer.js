@@ -1,6 +1,6 @@
 import React from "react";
 import "./Footer.css";
-import { Button } from "react-bootstrap";
+import { Button, Form } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
 function Footer() {
@@ -14,7 +14,7 @@ function Footer() {
           You can unsubscribe at any time
         </p>
         <div className="input-areas">
-          <form>
+          <Form>
             <input
               className="footer-input"
               name="email"
@@ -24,7 +24,7 @@ function Footer() {
             <Button className="btn-style" type="submit">
               Subscribe
             </Button>
-          </form>
+          </Form>
         </div>
       </section>
       {/* <div class="footer-links">
