@@ -8,9 +8,9 @@ function About() {
       <video autoPlay loop muted>
         <source src={video1} type="video/mp4" />
       </video>
-      <di>
+      <div>
         <h1>About</h1>
-      </di>
+      </div>
       <div>
         <p>In Progress.....</p>
       </div>

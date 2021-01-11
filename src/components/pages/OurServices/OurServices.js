@@ -8,8 +8,12 @@ const OurServices = () => {
       <video autoPlay loop muted>
         <source src={video1} type="video/mp4" />
       </video>
-      <h1>Our Services</h1>
-      <p>In Progress.....</p>
+      <div>
+        <h1>Our Services</h1>
+      </div>
+      <div>
+        <p>In Progress.....</p>
+      </div>
     </div>
   );
 };
