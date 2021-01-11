@@ -24,7 +24,7 @@
 }
 
 .campo {
-  background-image: url(../../images/Heart2Heart.png);
+  background-image: url(../../images/Campo.png);
   color: white;
   height: 172px;
   background-size: cover;
@@ -32,7 +32,7 @@
 }
 
 .heart2heart {
-  background-image: url(../../images/Campo.png);
+  background-image: url(../../images/Heart2Heart.png);
   color: white;
   height: 172px;
   background-size: cover;
