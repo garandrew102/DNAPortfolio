@@ -2,7 +2,6 @@ import React from "react";
 import "./LandingPage.css";
 import video1 from "../../../videos/video1.mp4";
 import Button from "../../Button/Button";
-import Footer from "../../Footer/Footer";
 
 function LandingPage() {
   return (
@@ -24,7 +23,7 @@ function LandingPage() {
           </Button>
         </div>
       </div>
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 }

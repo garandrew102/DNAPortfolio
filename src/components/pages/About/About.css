@@ -1,16 +1,16 @@
-.about-me {
+.about {
   /* background-image: url("../../../images/img-1.jpg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 92vh; */
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 92vh; */
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.about-me > video {
+.about > video {
   position: fixed;
   left: 50%;
   top: 50%;
