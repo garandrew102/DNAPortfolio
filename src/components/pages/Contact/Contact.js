@@ -106,7 +106,8 @@ class Contact extends Component {
             </div>
             <div className="button">
               <Button
-                variant="primary"
+                // variant="primary"
+                className="btn--outline"
                 type="submit"
                 disabled={this.state.disabled}
               >
