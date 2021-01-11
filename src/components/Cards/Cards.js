@@ -38,7 +38,7 @@ function Cards() {
                 <Button
                   raised
                   ripple
-                  href="/"
+                  href="https://github.com/wyncode/C38_midterm_jeannie_calvin_daniel_moon"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
@@ -68,7 +68,7 @@ function Cards() {
                 <Button
                   raised
                   ripple
-                  href="/"
+                  href="https://meme-park.herokuapp.com/"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
@@ -79,7 +79,7 @@ function Cards() {
                 <Button
                   raised
                   ripple
-                  href="/"
+                  href="https://github.com/garandrew102/MemePark"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
@@ -109,7 +109,7 @@ function Cards() {
                 <Button
                   raised
                   ripple
-                  href="/"
+                  href="https://heart-2heart.herokuapp.com/"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
@@ -120,7 +120,7 @@ function Cards() {
                 <Button
                   raised
                   ripple
-                  href="/"
+                  href="https://github.com/garandrew102/Heart2Heart"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
@@ -149,7 +149,7 @@ function Cards() {
                 <Button
                   raised
                   ripple
-                  href="/"
+                  href="https://campousa.herokuapp.com/"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
@@ -160,7 +160,7 @@ function Cards() {
                 <Button
                   raised
                   ripple
-                  href="/"
+                  href="https://github.com/garandrew102/Campo"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
