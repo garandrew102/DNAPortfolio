@@ -16,8 +16,8 @@ class Contact extends Component {
     };
   }
 
-  handleChange = (event) => {
-    const target = event.target;
+  handleChange = (e) => {
+    const target = e.target;
     const value = target.type === "checkbox" ? target.checked : target.value;
     const name = target.name;
 
