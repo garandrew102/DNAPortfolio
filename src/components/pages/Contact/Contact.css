@@ -1,9 +1,9 @@
 .contact {
   /* background-image: url("../../../images/img-1.jpg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 92vh; */
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat; */
+  height: 92vh;
   display: flex;
   justify-content: center;
 }
