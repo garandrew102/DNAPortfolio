@@ -18,7 +18,7 @@ function Cards() {
           <CardText className="card-text">
             <i>
               A React web application allowing users to search for the lastest
-              tech jobs and resources no matter what level
+              tech jobs and resources
             </i>
           </CardText>
           <CardActions>
@@ -27,7 +27,7 @@ function Cards() {
                 <Button
                   raised
                   ripple
-                  href="/"
+                  href="https://mighty-hollows-63749.herokuapp.com/"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
