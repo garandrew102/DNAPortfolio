@@ -1,6 +1,6 @@
 import React from "react";
 import "./Footer.css";
-import { Button } from "../Button/Button";
+import { Button } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
 function Footer() {
@@ -21,9 +21,7 @@ function Footer() {
               type="email"
               placeholder="Your Email"
             />
-            <Button buttonStyle="btn--outline" buttonSize="btn--large">
-              Subscribe
-            </Button>
+            <Button>Subscribe</Button>
           </form>
         </div>
       </section>

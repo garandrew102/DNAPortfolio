@@ -1,7 +1,8 @@
 import React from "react";
 import "./LandingPage.css";
 import video1 from "../../../videos/video1.mp4";
-import Button from "../../Button/Button";
+import { Button } from "react-bootstrap";
+import "../../Button/Button.css";
 
 function LandingPage() {
   return (
@@ -14,13 +15,7 @@ function LandingPage() {
         <h1>DNA</h1>
         <p>Bring Your Idea To Life</p>
         <div className="landing-page-btns">
-          <Button
-            className="btns"
-            buttonStyle="btn--outline"
-            buttonSize="btn--large"
-          >
-            CONTACT
-          </Button>
+          <Button className="btn--outline">CONTACT</Button>
         </div>
       </div>
     </>
