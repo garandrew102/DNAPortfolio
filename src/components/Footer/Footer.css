@@ -53,7 +53,7 @@
 }
 
 .footer-link-items > h4 {
-  color: white;
+  color: gray;
 }
 
 .footer-link-items > a {
@@ -62,7 +62,11 @@
   margin-bottom: 10px;
 }
 
-.footer-link-items > a:hover {
+.footer-link-items > a:hover,
+.social-icon-link:hover,
+.social-logo:hover,
+.website-rights:hover,
+.footer-link-items:hover > h4 {
   color: white;
   transition: 0.3s ease-out;
 }
@@ -72,7 +76,7 @@
 }
 
 .social-icon-link {
-  color: white;
+  color: gray;
   font-size: 25px;
 }
 
@@ -86,14 +90,14 @@
 
 .social-logo {
   display: flex;
-  color: white;
+  color: gray;
   cursor: pointer;
   text-decoration: none;
   font-size: 2rem;
 }
 
 .website-rights {
-  color: white;
+  color: gray;
 }
 
 .social-icons {
