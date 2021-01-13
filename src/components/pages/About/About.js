@@ -1,12 +1,12 @@
 import React from "react";
 import "./About.css";
-import video1 from "../../../videos/video1.mp4";
+import Future from "../../../videos/Future.mp4";
 
 function About() {
   return (
     <div className="about">
       <video autoPlay loop muted>
-        <source src={video1} type="video/mp4" />
+        <source src={Future} type="video/mp4" />
       </video>
       <div>
         <h1>About</h1>

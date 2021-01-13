@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Form, Button } from "react-bootstrap";
-import video1 from "../../../videos/video1.mp4";
+import BlueNetwork from "../../../videos/BlueNetwork.mp4";
 import Axios from "axios";
 import "./Contact.css";
 
@@ -59,7 +59,7 @@ class Contact extends Component {
     return (
       <div className="contact">
         <video autoPlay loop muted>
-          <source src={video1} type="video/mp4" />
+          <source src={BlueNetwork} type="video/mp4" />
         </video>
 
         <div className="form">
